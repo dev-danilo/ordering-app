@@ -11,7 +11,7 @@ import { useState } from "react";
 import { Alert, Linking, ScrollView, Text, View } from "react-native";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 
-const PHONE_NUMBER = "5534991128023";
+const PHONE_NUMBER = "5555555555555";
 
 export default function Cart() {
   const cartStore = useCartStore();
@@ -48,7 +48,7 @@ export default function Cart() {
 
     console.log("🚀 ~ handleOrder ~ products:", products);
 
-    const message = `🍔 NOVO PEDIDO \n Entregar em: ${address} 
+    const message = `🍔 NOVO PEDIDO \n Entregar em: ${address}
     ${products} \n Valor Total: ${total}`;
 
     Linking.openURL(
