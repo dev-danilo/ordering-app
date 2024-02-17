@@ -8,20 +8,23 @@
 </h4>
 
 <p align="center">
-  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#iphone-mobile-application">Preview Application</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-main-technologies-used">Technologies Used</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-executing-the-project">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#evergreen_tree-file-structure">File Structure</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
 ## :iphone: Mobile Application
 
+<!-- ![App Screenshot](https://github.com/dev-danilo/ordering-app/blob/main/mobile.gif) -->
 
-![App Screenshot](https://github.com/dev-danilo/ordering-app/blob/main/mobile.gif)
-
-
+<p align="center">
+  <img alt="" src="https://github.com/dev-danilo/ordering-app/blob/main/mobile.gif" height="400" >
+</p>
 Screenshots about the application:
-
 <div style="display: flex;">
+<p align="center">
 <img alt="" src="https://res.cloudinary.com/danilopereira/image/upload/v1708198754/ordering-app/home.png" height="400" >
 <img alt="" src="https://res.cloudinary.com/danilopereira/image/upload/v1708198754/ordering-app/home-add-products.png" height="400" >
 <img alt="" src="https://res.cloudinary.com/danilopereira/image/upload/v1708198754/ordering-app/screen-add-product.png" height="400" >
@@ -29,6 +32,7 @@ Screenshots about the application:
 <img alt="" src="https://res.cloudinary.com/danilopereira/image/upload/v1708198754/ordering-app/remove-product-cart.png" height="400" >
 <img alt="" src="https://res.cloudinary.com/danilopereira/image/upload/v1708198754/ordering-app/cart.png" height="400" >
 <img alt="" src="https://res.cloudinary.com/danilopereira/image/upload/v1708198754/ordering-app/order-whatsapp.png" height="400" >
+</p>
 </div>
 
 <!-- ![App Screenshot](https://res.cloudinary.com/danilopereira/image/upload/v1708198754/ordering-app/home.png)
