@@ -5,12 +5,11 @@ import { PRODUCTS } from "@/utils/data/products";
 import { formatCurrency } from "@/utils/functions/format-currency";
 import { Feather } from "@expo/vector-icons";
 import { Redirect, useLocalSearchParams, useNavigation } from "expo-router";
-import { Image, Text, View } from "react-native";
+import { Image, ScrollView, Text, View } from "react-native";
 
 export default function Product() {
   const cartStore = useCartStore();
   const { id } = useLocalSearchParams();
-
   const navigation = useNavigation();
 
   const product = PRODUCTS.find((item) => item.id === id);
@@ -18,13 +17,6 @@ export default function Product() {
   function handleAddToCart() {
     if (product) {
       cartStore.add(product!);
-      navigation.goBack();
-    }
-  }
-
-  function handleRemoveToCart() {
-    if (product) {
-      cartStore.remove(product!);
       navigation.goBack();
     }
   }
@@ -40,7 +32,7 @@ export default function Product() {
         className="w-full h-52"
         resizeMode="cover"
       />
-      <View className="p-5 mt-8 flex-1">
+      <View className="p-5 mt-2 flex-1">
         <Text className="text-white text-xl font-heading">{product.title}</Text>
         <Text className="text-lime-400 text-2xl font-heading my-2">
           {formatCurrency(product.price)}
@@ -48,16 +40,17 @@ export default function Product() {
         <Text className="text-slate-400 font-body text-base leading-6 mb-6">
           {product.description}
         </Text>
-
-        {product.ingredients.map((ingredient) => (
-          <Text
-            key={ingredient}
-            className="text-slate-400 font-body text-base leading-6"
-          >
-            {"\u2022"}
-            {ingredient}
-          </Text>
-        ))}
+        <ScrollView>
+          {product.ingredients.map((ingredient) => (
+            <Text
+              key={ingredient}
+              className="text-slate-400 font-body text-base leading-6"
+            >
+              {"\u2022"}
+              {ingredient}
+            </Text>
+          ))}
+        </ScrollView>
       </View>
       <View className="p-5 pb-8 gap-5">
         <Button onPress={handleAddToCart}>
