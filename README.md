@@ -15,9 +15,9 @@
 
 ## :iphone: Mobile Application
 
-<p align="center" width="100%">
-    ![App Screenshot](https://github.com/dev-danilo/ordering-app/blob/main/mobile.gif)
-</p>
+
+![App Screenshot](https://github.com/dev-danilo/ordering-app/blob/main/mobile.gif)
+
 
 Screenshots about the application:
 
