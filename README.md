@@ -15,7 +15,11 @@
 
 ## :iphone: Mobile Application
 
-![App Screenshot](https://github.com/dev-danilo/ordering-app/blob/main/mobile.gif)
+<p align="center" width="100%">
+    ![App Screenshot](https://github.com/dev-danilo/ordering-app/blob/main/mobile.gif)
+</p>
+
+Screenshots about the application:
 
 <div style="display: flex;">
 <img alt="" src="https://res.cloudinary.com/danilopereira/image/upload/v1708198754/ordering-app/home.png" height="400" >
@@ -52,6 +56,7 @@ This project was developed with the following technologies:
 - [Expo Router](https://docs.expo.dev/router/introduction/)
 - [Tailwind](https://tailwindcss.com/)
 - [NativeWind](https://www.nativewind.dev/getting-started/typescript)
+- [WhatsApp API](https://business.whatsapp.com/developers/developer-hub?lang=pt_BR)
 - [VS Code][vc] with [EditorConfig][vceditconfig], [Prettier][prettier] and [ESLint][vceslint]
 
 ## :information_source: Executing the project
@@ -85,7 +90,7 @@ $ npm run ios
 # Run the app
 $ npx expo start -->
 
-## :evergreen_tree: Project Structure
+## :evergreen_tree: File Structure
 
 The file structure is as follows:
 
