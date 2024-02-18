@@ -46,8 +46,6 @@ export default function Cart() {
       .map((product) => `\n ${product.quantity} ${product.title}`)
       .join("");
 
-    console.log("🚀 ~ handleOrder ~ products:", products);
-
     const message = `🍔 NOVO PEDIDO \n Entregar em: ${address}
     ${products} \n Valor Total: ${total}`;
 
