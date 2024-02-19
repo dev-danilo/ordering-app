@@ -1,6 +1,5 @@
 <h1 align="center">
-    <br>
-    Ordering App 🍔
+  🍔 Ordering App 
 </h1>
 
 <h4 align="center">
